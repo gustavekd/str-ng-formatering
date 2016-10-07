@@ -31,7 +31,7 @@ namespace string_formatering
             Console.WriteLine("mata in personnummer utan mellanslag:");
             string personnr = Console.ReadLine();
             decimal pntal = decimal.Parse(personnr);
-            Console.WriteLine(pntal.ToString("yyyy mm dd - kkkk"));
+            Console.WriteLine(pntal.ToString("#### ## ## - ####"));
         }
         
         
